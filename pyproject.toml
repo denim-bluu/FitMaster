@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fitmaster"
+version = "0.1.0"
+description = ""
+authors = ["denimbluu <denim.bluu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.13.1"
+plotly = "^5.22.0"
+numpy = "^1.26.4"
+joblib = "^1.4.2"
+scikit-learn = "^1.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+mypy = "^1.10.0"
+ptpython = "^3.0.27"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
