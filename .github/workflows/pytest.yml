@@ -16,12 +16,12 @@ jobs:
         python-version: 3.12  # Specify the Python version you need
 
     - name: Install Poetry
-      run: curl -sSL https://install.python-poetry.org | python3 -
+      uses: snok/install-poetry@v1
+      with:
+        poetry-version: 'latest'  # You can specify a version or use 'latest'
 
-    - name: Configure Poetry
-      run: |
-        poetry config virtualenvs.in-project true
-        poetry install
+    - name: Install Dependencies
+      run: poetry install
 
     - name: Run Tests
       run: poetry run pytest
