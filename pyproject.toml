@@ -12,6 +12,9 @@ plotly = "^5.22.0"
 numpy = "^1.26.4"
 joblib = "^1.4.2"
 scikit-learn = "^1.5.0"
+matplotlib = "^3.9.0"
+pyqt6 = "^6.7.0"
+pytest = "^8.2.2"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -5,16 +5,25 @@ FitMaster is a versatile and efficient tool for robust curve fitting with advanc
 ## Features
 
 - **Multiple Functional Forms**: Supports linear, exponential, logarithmic, and more.
-- **Advanced Fitting Algorithms**: Utilizes algorithms like Scipy's curve_fit, Trust Region Reflective, and Nelder-Mead.
 - **Comprehensive Model Selection**: Includes metrics such as AIC, BIC, and R-squared.
-- **Cross-Validation**: Implements k-fold cross-validation for robust model evaluation.
 - **Extensible and Modular**: Easily add new functional forms, algorithms, and selection criteria.
-- **Performance Optimization**: Supports parallel processing for faster fitting.
 
-## High Level Design
+## Architecture
+
+FitMaster's high-level design is illustrated in the following diagram:
 
 ![High Level Design](static/high-level-design.png)
 
-## Brainstorming
+## Conceptual Framework
+
+The following diagram provides a conceptual overview of the statistical universe that FitMaster operates within:
 
 ![Pre-defined statistical universe](static/statistical-universe.png)
+
+## Example
+
+Example usage of FitMaster can be found in [the `example.py` file](example.py)
+
+## Installation
+
+Use the package manager poetry to install FitMaster.
