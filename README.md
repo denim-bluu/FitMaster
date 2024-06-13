@@ -54,6 +54,12 @@ for fig, ax in figs_axes:
     plt.show()
 ```
 
+## Example Charts
+![QQ Plot on Logarithmic Form](image/qqplot_logarithmic.png)
+![QQ Plot on Exponential Form](image/qqplot_exponential.png)
+![Residual Plot on Logarithmic Form](image/residuals_logarithmic.png)
+![Residual Plot on Exponential Form](image/residuals_exponential.png)
+
 ## Installation
 
 Use the package manager poetry to install FitMaster.
