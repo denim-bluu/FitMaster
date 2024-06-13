@@ -55,6 +55,7 @@ for fig, ax in figs_axes:
 ```
 
 ## Example Charts
+![Fit Results](image/fit_results.png)
 ![QQ Plot on Logarithmic Form](image/qqplot_logarithmic.png)
 ![QQ Plot on Exponential Form](image/qqplot_exponential.png)
 ![Residual Plot on Logarithmic Form](image/residuals_logarithmic.png)
